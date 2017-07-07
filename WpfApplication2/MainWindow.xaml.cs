@@ -21,6 +21,7 @@ namespace WpfApplication1
     /// </summary>
     public partial class MainWindow : Window
     {
+        byte malaLiczba;
         int liczbaCalkowita = 10;
         long liczbaCalkowitadluga = 1000000;
         short liczbaCalkowitakrotka = 255;
@@ -43,11 +44,17 @@ namespace WpfApplication1
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            short liczbaPolubien = 10;
+            var naszPierwszyVar = liczbaPolubien; 
         }
 
         private void textBox1_TextChanged(object sender, TextChangedEventArgs e)
         {
+            
+
+
+
+
 
         }
     }
