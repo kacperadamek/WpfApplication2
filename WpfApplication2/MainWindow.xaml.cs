@@ -45,6 +45,11 @@ namespace WpfApplication1
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             short liczbaPolubien = 10;
+            const float PI = 3.14f;
+            float r = 10f;
+
+            var wynik = PI * r * r;
+            
             var naszPierwszyVar = liczbaPolubien; 
         }
 
