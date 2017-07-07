@@ -21,9 +21,16 @@ namespace WpfApplication1
     /// </summary>
     public partial class MainWindow : Window
     {
-        public int a = 1;
-
-        public MainWindow()
+        int liczbaCalkowita = 10;
+        long liczbaCalkowitadluga = 1000000;
+        short liczbaCalkowitakrotka = 255;
+        float liczbaZmiennoprzecinkowa = 1.2f;
+        double liczbaZmiennoprzecinkowa2 = 1.2;
+        bool prawdaFalsz = false;
+        string tekst = "to jest prawidłowy tekst";
+            ulong liczbaCałkowitaDlugaDodatnia = ulong.MaxValue;
+           
+        public MainWindow() 
         {
             InitializeComponent();
 
