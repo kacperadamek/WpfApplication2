@@ -42,6 +42,25 @@ namespace WpfApplication1
             throw new NotImplementedException();
         }
 
+        public void Operatory();
+        {
+        float zmienna1 = 10f;
+        int zmienna2 = 20;
+
+       var wynik = zmienna1 + zmienna2;
+        var wynik2 = zmienna1 - zmienna2;
+        var wynik3 = zmienna1 * zmienna2;
+        var wynik4 = zmienna1 / zmienna2;
+
+        var wynik5 = zmienna1++;
+        var wynik6 = zmienna1--;
+
+
+        }
+
+
+
+
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             short liczbaPolubien = 10;
